@@ -1,0 +1,36 @@
+.location {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    min-width: 600px;
+    padding-right: 1rem;
+    
+    .map {
+        float: right;
+        margin-top: -9rem;
+    }
+}
+
+.phone {
+    a {
+        color: $body-font;
+    }
+}
+
+.message {
+    a {
+        color: $body-font;
+    }
+}
+
+  @media (max-width: 760px) {
+    .location {
+        width: 100%;
+        height: 100%;
+    
+        .map {
+            float: none;
+            margin-top: 0;
+        }
+    }
+}
