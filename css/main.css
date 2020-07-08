@@ -64,8 +64,8 @@
   font-weight: bold;
   font-family: 'Cairo', sans-serif;
   z-index: 0;
-  align-items: center;
   text-align: center;
+  text-align: -webkit-center;
 }
 
 .timeline-container .circle-passive {
@@ -82,8 +82,8 @@
   font-family: 'Cairo', sans-serif;
   font-weight: bold;
   z-index: 0;
-  align-items: center;
   text-align: center;
+  text-align: -webkit-center;
 }
 
 .projects-container {
@@ -421,6 +421,9 @@ main {
   }
   .homepage-slideshow {
     margin-top: 3.5rem;
+  }
+  .slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7 {
+    height: 40vh;
   }
   .page-title {
     margin-top: -0.5rem;
