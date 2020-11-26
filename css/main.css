@@ -12,11 +12,11 @@
 }
 
 .phone a {
-  color: #6A6767;
+  color: #FDFAFB;
 }
 
 .message a {
-  color: #6A6767;
+  color: #FDFAFB;
 }
 
 @media (max-width: 760px) {
@@ -55,8 +55,8 @@
   position: absolute;
   width: 40px;
   height: 40px;
-  background: #1A4961;
-  color: #F6F0ED;
+  background: #FF7682;
+  color: #FDFAFB;
   border: none;
   border-radius: 50%;
   margin-top: -32px;
@@ -73,8 +73,8 @@
   position: absolute;
   width: 40px;
   height: 40px;
-  background: #86B4CB;
-  color: #F6F0ED;
+  background: #5C6F7E;
+  color: #FDFAFB;
   border: none;
   border-radius: 50%;
   margin-top: -32px;
@@ -100,7 +100,7 @@
 }
 
 /* Slideshow container */
-.slideshow-container {
+.gallery-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -150,7 +150,7 @@
 }
 
 .active, .thumbnail:hover {
-  background-color: #6A6767;
+  background-color: #FDFAFB;
 }
 
 /* Fading animation */
@@ -196,7 +196,7 @@
 }
 
 .team-profiles h3 {
-  color: #1A4961;
+  color: #FF7682;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -220,20 +220,20 @@
 }
 
 :root {
-  background-color: #F6F0ED;
+  background-color: #142030;
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
   padding: 0;
-  color: #6A6767;
+  color: #FDFAFB;
 }
 
 h1 {
-  color: #1A4961;
+  color: #FF7682;
   font-family: 'Cairo', sans-serif;
 }
 
 h2 {
-  color: #413F3F;
+  color: #355C7D;
 }
 
 body {
@@ -247,12 +247,12 @@ body {
 .burger div {
   width: 25px;
   height: 5px;
-  background-color: #413F3F;
+  background-color: #355C7D;
   margin: 0.4rem;
 }
 
 .nav-container {
-  background: rgba(246, 240, 237, 0.84);
+  background: rgba(20, 32, 48, 0.84);
   position: fixed;
   top: 0;
   left: 0;
@@ -266,7 +266,6 @@ body {
 }
 
 .nav-container .logo {
-  margin-top: 1rem;
   margin-left: 1rem;
 }
 
@@ -282,11 +281,11 @@ body {
 
 .nav-container ul li a {
   text-decoration: none;
-  color: #413F3F;
+  color: #355C7D;
 }
 
 .nav-container ul li a .nav-active {
-  color: #1A4961;
+  color: #FF7682;
   text-decoration: underline;
 }
 
@@ -301,12 +300,12 @@ body {
 
 .nav-container .social-icons a {
   text-decoration: none;
-  color: #413F3F;
+  color: #355C7D;
   padding-right: 2rem;
 }
 
 .nav-container .social-icons a:hover {
-  color: #1A4961;
+  color: #FF7682;
 }
 
 main {
@@ -316,60 +315,38 @@ main {
   padding-right: 2rem;
 }
 
-.slide1 {
+.slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7 {
   height: 66vh;
-  background-image: url("../images/Slideshow/slideshow1.jpg");
   background-position: center;
   background-size: cover;
-  transition: 1s ease;
+}
+
+.slide1 {
+  background-image: url("../images/Slideshow/slideshow1.jpg");
 }
 
 .slide2 {
-  height: 66vh;
   background-image: url("../images/Slideshow/slideshow2.jpg");
-  background-position: center;
-  background-size: cover;
-  transition: 1s ease;
 }
 
 .slide3 {
-  height: 66vh;
   background-image: url("../images/Slideshow/slideshow3.jpg");
-  background-position: center;
-  background-size: cover;
-  transition: 1s ease;
 }
 
 .slide4 {
-  height: 66vh;
   background-image: url("../images/Slideshow/slideshow4.jpg");
-  background-position: center;
-  background-size: cover;
-  transition: 1s ease;
 }
 
 .slide5 {
-  height: 66vh;
   background-image: url("../images/Slideshow/slideshow5.jpg");
-  background-position: center;
-  background-size: cover;
-  transition: 1s ease;
 }
 
 .slide6 {
-  height: 66vh;
   background-image: url("../images/Slideshow/slideshow6.jpg");
-  background-position: center;
-  background-size: cover;
-  transition: 1s ease;
 }
 
 .slide7 {
-  height: 66vh;
   background-image: url("../images/Slideshow/slideshow7.jpg");
-  background-position: center;
-  background-size: cover;
-  transition: 1s ease;
 }
 
 @media (max-width: 760px) {
