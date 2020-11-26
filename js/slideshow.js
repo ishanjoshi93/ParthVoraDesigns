@@ -1,15 +1,14 @@
-var slideIndex = 0;
-var time = 3000;
+let slideIndex = 0;
+const time = 3000;
 carousel();
 
 function carousel() {
-  var i;
-  var x = document.getElementsByClassName("hpSlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  const slide = document.querySelectorAll(".slide");
+  for (let i = 0; i < slide.length; i++) {
+    slide[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1} 
-  x[slideIndex-1].style.display = "block"; 
+  if (slideIndex > slide.length) {slideIndex = 1} 
+  slide[slideIndex-1].style.display = "block"; 
   setTimeout(carousel, time); 
 }

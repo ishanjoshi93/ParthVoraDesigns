@@ -21,7 +21,7 @@
         width: 40px;
         height: 40px;
         background: $active-heading;
-        color: $background-color;
+        color: $body-font;
         border: none;
         border-radius: 50%;
         margin-top: -32px;
@@ -38,8 +38,8 @@
         position: absolute;
         width: 40px;
         height: 40px;
-        background: #86B4CB;
-        color: $background-color;
+        background: #5C6F7E;
+        color: $body-font;
         border: none;
         border-radius: 50%;
         margin-top: -32px;
@@ -67,7 +67,7 @@
 }
 
 /* Slideshow container */
-.slideshow-container {
+.gallery-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
