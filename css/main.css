@@ -290,6 +290,7 @@ body {
 }
 
 .nav-container ul li a:hover {
+  color: #FDFAFB;
   text-decoration: underline;
 }
 
