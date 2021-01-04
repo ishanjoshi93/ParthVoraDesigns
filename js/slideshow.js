@@ -1,5 +1,5 @@
 let slideIndex = 0;
-const time = 3000;
+const time = 6000;
 carousel();
 
 function carousel() {
@@ -9,6 +9,6 @@ function carousel() {
   }
   slideIndex++;
   if (slideIndex > slide.length) {slideIndex = 1} 
-  slide[slideIndex-1].style.display = "block"; 
+  slide[slideIndex-1].style.display = "block";
   setTimeout(carousel, time); 
 }

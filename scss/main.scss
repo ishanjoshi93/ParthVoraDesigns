@@ -107,6 +107,16 @@ main {
     height: 66vh;
     background-position: center;
     background-size: cover;
+    animation:fading infinite;
+    
+    @keyframes fading {
+        0% {
+            opacity:0
+        }
+        100% {
+            opacity:1
+        }
+
 }
 
 .slide1 {
@@ -209,4 +219,4 @@ main {
         margin-top: -0.5rem;
         text-align: center;
     }
-}
+}}
